@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty | CS Dept.</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Slab:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-university"></i>
+                <div class="logo-text">
+                    <h1>CS Dept.</h1>
+                    <span>Tech University</span>
+                </div>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="faculty.html" class="active">Faculty</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="facilities.html">Facilities</a></li>
+                    <li><a href="achievements.html">Achievements</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div style="height: 80px;"></div>
+
+    <!-- Faculty Section -->
+    <section id="faculty" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title">Meet Our Faculty</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 50px;" id="fac-intro">The department boasts a
+                team of highly
+                qualified and experienced faculty members who are dedicated to teaching and research. Many of our
+                professors hold PhDs from prestigious institutions.</p>
+
+            <div class="faculty-grid">
+                <!-- Faculty 1 -->
+                <div class="faculty-card">
+                    <div class="faculty-img">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+                            alt="Professor">
+                    </div>
+                    <div class="faculty-info">
+                        <h3 id="fac-1-name">Dr. Alan Turing</h3>
+                        <span id="fac-1-role">Head of Department</span>
+                        <p id="fac-1-qual">Ph.D. in Computer Science</p>
+                        <p id="fac-1-exp">Exp: 20 Years</p>
+                        <p class="specialization" id="fac-1-spec">AI & Machine Learning</p>
+                    </div>
+                </div>
+                <!-- Faculty 2 -->
+                <div class="faculty-card">
+                    <div class="faculty-img">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+                            alt="Professor">
+                    </div>
+                    <div class="faculty-info">
+                        <h3 id="fac-2-name">Prof. Grace Hopper</h3>
+                        <span id="fac-2-role">Professor</span>
+                        <p id="fac-2-qual">Ph.D. in Mathematics</p>
+                        <p id="fac-2-exp">Exp: 25 Years</p>
+                        <p class="specialization" id="fac-2-spec">Software Engineering, Compilers</p>
+                    </div>
+                </div>
+                <!-- Faculty 3 -->
+                <div class="faculty-card">
+                    <div class="faculty-img">
+                        <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+                            alt="Professor">
+                    </div>
+                    <div class="faculty-info">
+                        <h3 id="fac-3-name">Dr. John Von Neumann</h3>
+                        <span id="fac-3-role">Associate Professor</span>
+                        <p id="fac-3-qual">Ph.D. in Physics</p>
+                        <p id="fac-3-exp">Exp: 15 Years</p>
+                        <p class="specialization" id="fac-3-spec">Computer Architecture, Game Theory</p>
+                    </div>
+                </div>
+                <!-- Faculty 4 -->
+                <div class="faculty-card">
+                    <div class="faculty-img">
+                        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+                            alt="Professor">
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Dr. Ada Lovelace</h3>
+                        <span>Assistant Professor</span>
+                        <p>Ph.D. in Computational Logic</p>
+                        <p>Exp: 8 Years</p>
+                        <p class="specialization">Algorithms, History of Computing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Areas -->
+    <section class="section-padding">
+        <div class="container">
+            <h2 class="section-title">Research Areas</h2>
+            <div class="services-grid"
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
+                <div class="vm-box">
+                    <h4>Artificial Intelligence</h4>
+                    <p>Focus on Deep Learning, NLP, and Computer Vision under the guidance of Dr. Alan Turing.</p>
+                </div>
+                <div class="vm-box">
+                    <h4>Cyber Security</h4>
+                    <p>Cryptography, Network Security, and Ethical Hacking researches funded by Govt. agencies.</p>
+                </div>
+                <div class="vm-box">
+                    <h4>Data Science</h4>
+                    <p>Big Data Analytics, Predictive Modeling, and Business Intelligence applications.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Table -->
+    <section class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title">Selected Publications</h2>
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <th>Title</th>
+                        <th>Author(s)</th>
+                        <th>Journal/Conference</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2023</td>
+                        <td>"Neural Networks for Early Disease Detection"</td>
+                        <td>Dr. Alan Turing, Emily Chen</td>
+                        <td>IEEE Trans. on AI</td>
+                    </tr>
+                    <tr>
+                        <td>2023</td>
+                        <td>"Optimizing Compiler Design for Quantum Computers"</td>
+                        <td>Prof. Grace Hopper</td>
+                        <td>ACM Computing Surveys</td>
+                    </tr>
+                    <tr>
+                        <td>2022</td>
+                        <td>"Game Theoretic Approaches to Network Routing"</td>
+                        <td>Dr. J.V. Neumann</td>
+                        <td>Intl. Journal of Networking</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>CS Dept.</h2>
+                    <p>&copy; <span id="year">2023</span> Tech University. All Rights Reserved.</p>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="cms.js"></script>
+</body>
+
+</html>

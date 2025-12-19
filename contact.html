@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | CS Dept.</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Slab:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-university"></i>
+                <div class="logo-text">
+                    <h1>CS Dept.</h1>
+                    <span>Tech University</span>
+                </div>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="faculty.html">Faculty</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="facilities.html">Facilities</a></li>
+                    <li><a href="achievements.html">Achievements</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div style="height: 80px;"></div>
+
+    <!-- Contact Info & Map -->
+    <section id="contact" class="section-padding bg-dark text-white">
+        <div class="container">
+            <h2 class="section-title text-white">Get In Touch</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p id="contact-address">CS Department, Tech University Campus, Main Road, New York, NY 10001</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p id="contact-phone">+1 234 567 890</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p id="contact-email">info@csdept-techuni.edu</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <p id="contact-hours">Mon - Fri: 9:00 AM - 5:00 PM</p>
+                    </div>
+                </div>
+
+                <!-- Embedded Google Map -->
+                <div style="flex: 1.5; min-width: 300px; height: 300px; border-radius: 8px; overflow: hidden;">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1422937950147!2d-73.9873196845941!3d40.75889497932681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes%20Square!5e0!3m2!1sen!2sus!4v1633095365518!5m2!1sen!2sus"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form & FAQ -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="contact-wrapper">
+                <!-- Contact Form -->
+                <div class="contact-form" style="box-shadow: 0 5px 15px rgba(0,0,0,0.1); border: 1px solid #eee;">
+                    <h3 style="margin-bottom: 20px; color: var(--primary-color);">Send us a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required style="background: #f9f9f9;">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required
+                                style="background: #f9f9f9;">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Subject" required style="background: #f9f9f9;">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Your Message" required
+                                style="background: #f9f9f9;"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- FAQ Section -->
+                <div style="flex: 1; min-width: 300px;">
+                    <h3 style="margin-bottom: 20px; color: var(--primary-color); text-align: center;">Frequently Asked
+                        Questions</h3>
+                    <div class="accordion-container">
+                        <div class="accordion-item">
+                            <button class="accordion-header">What are the admission criteria?</button>
+                            <div class="accordion-body">
+                                <p>Admission is based on the Common Entrance Test (CET) rank and 12th-grade marks. For
+                                    details, visit the Admissions office.</p>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <button class="accordion-header">Does the college provide hostel facilities?</button>
+                            <div class="accordion-body">
+                                <p>Yes, we have separate hostels for boys and girls with all modern amenities and 24/7
+                                    security.</p>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <button class="accordion-header">How are the placements?</button>
+                            <div class="accordion-body">
+                                <p>We have a 95% placement record with top recruiters like Google, Microsoft, Infosys,
+                                    and TCS visiting every year.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>CS Dept.</h2>
+                    <p>&copy; <span id="year">2023</span> Tech University. All Rights Reserved.</p>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="cms.js"></script>
+    <script>
+        // Accordion JS (Reused)
+        const acc = document.getElementsByClassName("accordion-header");
+        for (let i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                const panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>

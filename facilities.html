@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facilities | CS Dept.</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Slab:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-university"></i>
+                <div class="logo-text">
+                    <h1>CS Dept.</h1>
+                    <span>Tech University</span>
+                </div>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="faculty.html">Faculty</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="facilities.html" class="active">Facilities</a></li>
+                    <li><a href="achievements.html">Achievements</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div style="height: 80px;"></div>
+
+    <!-- Facilities Intro -->
+    <section id="facilities" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">Infrastructure</h2>
+            <div class="facilities-container">
+                <div class="facility-item">
+                    <i class="fas fa-desktop"></i>
+                    <h3 id="facil-1-title">Advanced Computing Labs</h3>
+                    <p id="facil-1-desc">8 Computer Labs with over 500 High-End Workstations.</p>
+                </div>
+                <div class="facility-item">
+                    <i class="fas fa-book"></i>
+                    <h3 id="facil-2-title">Department Library</h3>
+                    <p id="facil-2-desc">Over 5000+ reference books, IEEE Journals, and Digital access.</p>
+                </div>
+                <div class="facility-item">
+                    <i class="fas fa-users"></i>
+                    <h3 id="facil-3-title">Seminar Hall</h3>
+                    <p id="facil-3-desc">Fully air-conditioned hall with AV facilities for 200 people.</p>
+                </div>
+                <div class="facility-item">
+                    <i class="fas fa-microscope"></i>
+                    <h3 id="facil-4-title">Research Center</h3>
+                    <p id="facil-4-desc">Dedicated space for Ph.D. scholars with 24/7 access.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lab Details Table -->
+    <section class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title">Lab Specifications</h2>
+            <div style="overflow-x: auto;">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Lab Name</th>
+                            <th>Configuration</th>
+                            <th>Software Installed</th>
+                            <th>Capacity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>AI & Research Lab</td>
+                            <td>i9 Processor, 64GB RAM, RTX 4090 GPU</td>
+                            <td>TensorFlow, PyTorch, Matlab, Anaconda</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Software Engg. Lab</td>
+                            <td>i7 Processor, 16GB RAM, 512 SSD</td>
+                            <td>Eclipse, Visual Studio, Rational Rose, Git</td>
+                            <td>60</td>
+                        </tr>
+                        <tr>
+                            <td>Networking & IoT Lab</td>
+                            <td>i5 Processor, Raspberry Pi Kits, Cisco Routers</td>
+                            <td>Cisco Packet Tracer, NS3, Arduino IDE</td>
+                            <td>50</td>
+                        </tr>
+                        <tr>
+                            <td>Database Lab</td>
+                            <td>i7 Processor, 32GB RAM, 1TB HDD</td>
+                            <td>Oracle 19c, MySQL, MongoDB, Hadoop</td>
+                            <td>60</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rules Section -->
+    <section class="section-padding">
+        <div class="container">
+            <h2 class="section-title">Lab Rules & Regulations</h2>
+            <div class="accordion-container" style="max-width: 800px; margin: 0 auto;">
+
+                <div class="accordion-item">
+                    <button class="accordion-header">General Conduct</button>
+                    <div class="accordion-body">
+                        <p>1. Students must carry their ID cards at all times.<br>
+                            2. Mobile phones must be kept on silent mode.<br>
+                            3. Food and drinks are strictly prohibited inside the lab.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">System Usage</button>
+                    <div class="accordion-body">
+                        <p>1. Do not install any unauthorized software.<br>
+                            2. Save your work on external drives; local data may be wiped.<br>
+                            3. Report any hardware malfunction to the Lab Assistant immediately.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>CS Dept.</h2>
+                    <p>&copy; <span id="year">2023</span> Tech University. All Rights Reserved.</p>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="cms.js"></script>
+    <script>
+        // Accordion JS (Reused)
+        const acc = document.getElementsByClassName("accordion-header");
+        for (let i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                const panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
